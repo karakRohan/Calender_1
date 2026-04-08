@@ -20,7 +20,7 @@ This is a simple interactive calendar web app built using React.js.
 ## How to Run
 
 1. Clone the repo:
-   git clone https://github.com/your-username/interactive-calendar.git
+   https://github.com/karakRohan/Calender.git
 
 2. Go to project folder:
    cd interactive-calendar

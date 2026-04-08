@@ -6,6 +6,7 @@ interface NotesProps {
   endDate: Date | null;
 }
 
+
 const getStorageKey = (start: Date | null, end: Date | null) => {
   if (start && end) {
     return `calendar-note-${format(start, "yyyy-MM-dd")}_${format(end, "yyyy-MM-dd")}`;

@@ -55,4 +55,5 @@ const Day = ({ date, isCurrentMonth, isStart, isEnd, isInRange, onClick }: DayPr
   );
 };
 
+
 export default Day;

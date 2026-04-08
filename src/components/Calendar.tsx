@@ -60,7 +60,6 @@ const Calendar = () => {
     }
   }; 
 
-  
   const isInRange = (date: Date) => {
     if (!startDate || !endDate) return false;
     return isAfter(date, startDate) && isBefore(date, endDate);

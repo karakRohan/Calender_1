@@ -138,7 +138,6 @@ const Calendar = () => {
             </div>
           </div>
 
-
           {/* Notes Section */}
           <div className="lg:w-72 border-t lg:border-t-0 lg:border-l border-border p-6">
             <Notes startDate={startDate} endDate={endDate} />

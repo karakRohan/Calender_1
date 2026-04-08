@@ -59,8 +59,7 @@ const Calendar = () => {
       setEndDate(null);
       setSelectionStep(1);
     }
-  };
-  
+  }; 
 
   const isInRange = (date: Date) => {
     if (!startDate || !endDate) return false;

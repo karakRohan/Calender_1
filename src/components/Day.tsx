@@ -9,6 +9,7 @@ interface DayProps {
   onClick: (date: Date) => void;
 }
 
+
 const Day = ({ date, isCurrentMonth, isStart, isEnd, isInRange, onClick }: DayProps) => {
   const today = isToday(date);
   const dayNum = format(date, "d");

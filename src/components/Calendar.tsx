@@ -19,7 +19,6 @@ import Notes from "./Notes";
 import heroImage from "@/assets/hero-mountain.jpg";
 
 
-
 const WEEKDAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 const Calendar = () => {
